@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EviTours | Agencia de Tours</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+
+body{background:#f5f7fa;color:#333}
+
+header{
+background:rgba(0,0,0,0.6);
+position:fixed;
+width:100%;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+color:white;
+z-index:1000;
+}
+
+header h1{font-size:22px}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+font-size:14px;
+}
+
+.hero{
+height:100vh;
+background:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{font-size:42px;margin-bottom:10px}
+.hero p{font-size:18px;margin-bottom:20px}
+
+.btn{
+background:#00b894;
+color:white;
+padding:12px 25px;
+border-radius:30px;
+text-decoration:none;
+}
+
+.section{padding:80px 40px;text-align:center}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+margin-top:40px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+footer{
+background:#0b3d2e;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px;
+border-radius:50%;
+text-decoration:none;
+font-size:22px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<h1>EviTours</h1>
+<nav>
+<a href="#">Inicio</a>
+<a href="#servicios">Servicios</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Descubre Yucatán con EviTours</h2>
+<p>Experiencias únicas, seguras y personalizadas</p>
+<a href="#contacto" class="btn">Reservar ahora</a>
+</section>
+
+<section class="section" id="servicios">
+<h2>Nuestros Tours</h2>
+<div class="services">
+<div class="card">🌊 Tours a cenotes</div>
+<div class="card">🏛️ Zonas arqueológicas</div>
+<div class="card">🚐 Transporte turístico</div>
+<div class="card">✨ Tours personalizados</div>
+</div>
+</section>
+
+<section class="section" id="galeria">
+<h2>Galería</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5ce">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<img src="https://images.unsplash.com/photo-1491553895911-0055eca6402d">
+</div>
+</section>
+
+<section class="section" id="contacto">
+<h2>Contáctanos</h2>
+<p>Reserva tu experiencia por WhatsApp</p>
+<p><strong>999-000-0000</strong></p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/529990000000" target="_blank">💬</a>
+
+<footer>
+<p>© 2026 EviTours | Mérida, Yucatán</p>
+</footer>
+
+</body>
+</html>
